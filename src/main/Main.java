@@ -4,7 +4,6 @@ import main.java.constant.ProjectConstant;
 import main.java.scheduler.CronScheduler;
 import main.java.utils.EmptyUtil;
 import main.java.utils.PropertyUtil;
-import org.quartz.SchedulerException;
 
 import java.util.Scanner;
 
@@ -66,7 +65,7 @@ public class Main {
                     ProjectConstant.cron = cron;
                     try {
                         CronScheduler.task();
-                    } catch (SchedulerException e) {
+                    } catch (Exception e) {
                         e.printStackTrace();
                     }
                 }

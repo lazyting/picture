@@ -10,5 +10,7 @@
     <orderEntry type="library" name="commons-io-2.4 (2)" level="project" />
     <orderEntry type="library" name="quartz-2.3.0" level="project" />
     <orderEntry type="library" name="slf4j-api-1.7.25" level="project" />
+    <orderEntry type="library" name="quartz-2.1.1" level="project" />
+    <orderEntry type="library" name="quartz-2.2.1" level="project" />
   </component>
 </module>
